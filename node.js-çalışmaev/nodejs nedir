@@ -1,0 +1,10 @@
+node.js bir javascript çalısma ortamıdır.
+html içerik , css görünüm , js ise fonksiyonelleştirme harekete gecirmedir
+javascript tarayıcımız ile sınırlıdır.yaniçalısma ortamı tarayıcı ile sınırlıdır.
+node.js ise javascriptin bu çalısma ortamından kurtarıp kendi basına çalısabilecegi çalısma ortamı sağlıyor
+peki javascript bunu nasıl sağladı??
+-chromes v8 javascript engine ıle sağlandı.
+peki bu nedir?
+v8 google tarafından geliştirilip c++ ile yazılan bir engine(makine) dir yani makine diline ceviriyo
+js de bir kod yazıyoruz v8 yardımı ile js de yazdığımız kodları c++ ile iletişime geçmesini sağlıyoruz 
+bu şekilde c++ yapabileceği işlemleri node.js yardımıyla js de yazdırabiliyoruz.
