@@ -1,0 +1,33 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('mongodbVSCodePlaygroundDB');
+
+db.createCollection("test")
+
+db.dropDatabase()
+
+ db.test.insert({
+     name:"merve",
+     type:"software"
+ })
+ db.test.insertMany([
+ {name:"Ali",age:15}
+    {name:"ahmet",age:16}
+ ])
+
+ db.test.find()
+
+ db.test.find({age:18})
+ db.test.find({age:18,name:"ahmet"})
+
+ db.test.find({age:{$lt:18}})
+
+ db.test.find({age:{$gt:15}});
+ db.test.find({age:{$ne:15}});
+ db.test.find().sort({age:1});
+
+ db.test.find().sort({age:-1});
